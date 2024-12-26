@@ -14,4 +14,5 @@ function handleOdd(num) {
     console.log(`${num} is odd`);
 }
 
-handleNum (13.1, handleEven, handleOdd);
+handleNum (13, handleEven, handleOdd);
+handleNum (12, handleEven, handleOdd);

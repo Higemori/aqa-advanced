@@ -15,7 +15,8 @@ function divide(numerator, denominator) {
 }
 
 try {
-    console.log(divide('bob', 3.3));
+    console.log(divide(8.44, 3.3));
+    console.log(divide(8.44, 0));
 } catch (e) {
     console.error(e);
 }
