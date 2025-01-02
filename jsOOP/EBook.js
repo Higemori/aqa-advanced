@@ -11,7 +11,7 @@ export class EBook extends Book {
     }
 
     set fileType(fileType) {
-        if (typeof fileType === "string") {
+        if (typeof fileType === 'string') {
             this._fileType = fileType;
         }
     }

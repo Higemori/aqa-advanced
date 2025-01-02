@@ -8,7 +8,7 @@ export class Book {
     static findOldestBook(booksArray) {
         let minYear = 2025;
         let oldestBook;
-        if (booksArray.lenght !== 0) {
+        if (booksArray.length !== 0) {
             for (const book of booksArray) {
                 if (book.year < minYear) {
                     minYear = book.year;
