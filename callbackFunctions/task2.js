@@ -1,11 +1,11 @@
 function recursion(num) {
-    if (num <= 0) {
-        return;
-    }
+  if (num <= 0) {
+    return;
+  }
 
-    console.log(num);
+  console.log(num);
 
-    recursion(num-1);
+  recursion(num - 1);
 }
 
 recursion(8.5);
