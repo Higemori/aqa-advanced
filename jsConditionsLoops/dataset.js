@@ -1,1 +1,22 @@
-export const differentGrades = [-1, 'оцінка', null, undefined, 59, 60.01, 60, 61, 69, 70, 71, 72, 79, 80, 81, 82, 89, 90, 91, 123];
+export const differentGrades = [
+  -1,
+  "оцінка",
+  null,
+  undefined,
+  59,
+  60.01,
+  60,
+  61,
+  69,
+  70,
+  71,
+  72,
+  79,
+  80,
+  81,
+  82,
+  89,
+  90,
+  91,
+  123,
+];
