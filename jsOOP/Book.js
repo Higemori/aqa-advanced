@@ -15,13 +15,13 @@ export class Book {
           oldestBook = book;
         }
       }
-      return oldestBook;
+      return oldestBook;  
     } else {
       return 0;
     }
   }
 
-  set name(name) {
+  set name(name) {  
     if (typeof name === "string") {
       this._name = name;
     }
