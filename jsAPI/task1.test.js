@@ -31,7 +31,7 @@ describe("Jsonplaceholder API tests", () => {
   });
 
   test("PUT method test", async () => {
-    const response = await axios.post(jsonData.postUrl,
+    const response = await axios.put(`${jsonData.postUrl}/1`,
       {
         userId: 1,
         id: 1,
@@ -44,7 +44,7 @@ describe("Jsonplaceholder API tests", () => {
         }
       });
     console.log(response.data);
-    expect(response.status).toBe(201);
+    expect(response.status).toBe(200);
     expect(response.data.title).toContain("new title");
     expect(response.data.body).toContain("new body");
   });
