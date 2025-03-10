@@ -35,7 +35,7 @@ describe("Jsonplaceholder API tests", () => {
       {
         userId: 1,
         id: 1,
-        title: "new title",
+        title: "new title", 
         body: "new body"
       },
       {

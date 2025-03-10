@@ -4,3 +4,5 @@ node_modules/
 .prettierignore
 .prettierrc
 eslint.config.js
+html-report/
+jest-html-reporters-attach/
