@@ -34,6 +34,15 @@ const config = {
   // Indicates which provider should be used to instrument code for coverage
   coverageProvider: "v8",
 
+  reporters: [
+    "default",
+    ["jest-html-reporters", {
+      "publicPath": "./html-report",
+      "filename": "report.html",
+      "openReport": false
+    }]
+  ],
+
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
   //   "json",
